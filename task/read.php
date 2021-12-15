@@ -27,7 +27,8 @@ if ($num>0) {
             "name" => $name,
             "description" => html_entity_decode($description),
             "tag_id" => $tag_id,
-            "tag_name" => $tag_name
+            "tag_name" => $tag_name,
+            'created' => $created
         );
 
         array_push($task_arr["records"], $task_item);
