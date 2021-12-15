@@ -33,7 +33,8 @@ if ($num>0) {
             "id" => $id,
             "name" => $name,
             "description" => html_entity_decode($description),
-            "tag_id" => $tag_id
+            "tag_id" => $tag_id,
+            'created' => $created
         );
 
         array_push($task_arr["records"], $task_item);

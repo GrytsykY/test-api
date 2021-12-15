@@ -29,7 +29,8 @@ if ($num>0) {
 
         $tag_item=array(
             "id" => $id,
-            "name" => $name
+            "name" => $name,
+            'created' => $created
         );
 
         array_push($tag_arr["records"], $tag_item);
